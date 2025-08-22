@@ -9,7 +9,7 @@ def get_files_snapshot(folder):
 def main():
     if not os.path.exists(FOLDER_TO_WATCH):
         os.mkdir(FOLDER_TO_WATCH)
-
+    print("File watcher started..."
     print(f"Monitoring folder: {FOLDER_TO_WATCH}")
     previous = get_files_snapshot(FOLDER_TO_WATCH)
 
